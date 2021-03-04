@@ -1,4 +1,5 @@
 import argparse
+
 import xarray as xr
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
@@ -57,7 +58,7 @@ def main(inargs):
 
 
 if __name__ == '__main__':
-    description = 'Print the input arguments to the screen.'
+    description = 'plot data.'
     parser = argparse.ArgumentParser(description=description)
 
     parser.add_argument("infile", type=str, help="Input file name")
